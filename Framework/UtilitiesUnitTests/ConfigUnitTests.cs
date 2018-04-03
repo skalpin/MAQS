@@ -28,7 +28,7 @@ namespace UtilitiesUnitTesting
             #region GetValueString
             string value = Config.GetValue("WaitTime");
             #endregion
-            Assert.AreEqual(value, "100");
+            Assert.AreEqual("100", value);
         }
 
         /// <summary>
