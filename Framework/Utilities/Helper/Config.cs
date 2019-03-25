@@ -313,7 +313,7 @@ namespace Magenic.Maqs.Utilities.Helper
 
             if (dictionary != null)
             {
-                if (dictionary.Keys.Equals(key))
+                if (dictionary.Keys.Contains(key))
                 {
                     // Case sensative match
                     value = dictionary[key];
